@@ -1,0 +1,32 @@
+name: clean
+description: A scaffold example with files to copy.
+author: Alberto Chamorro <a.chamorro.ruiz@gmail.com>
+
+copy_files: true
+
+structure:
+  - ui:
+  - domain:
+    - entities
+    - usecases
+  - di
+  - data:
+    - models
+    - repositories
+    - services
+
+test_structure:
+  - presentation:
+  - data:
+  - domain:
+
+dependencies:
+  equatable:
+  bloc:
+  flutter_bloc:
+
+dev_dependencies:
+  build_runner:
+
+  #Linter
+  very_good_analysis:
