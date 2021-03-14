@@ -16,7 +16,7 @@ structure:
     - services
 
 test_structure:
-  - presentation:
+  - ui:
   - data:
   - domain:
 
